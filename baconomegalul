@@ -1,0 +1,178 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("| SYLUS GUI |       | In Another Time [DIO BOSS AND SPOH] |", "Serpent")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Lmao")
+
+
+MainSection:NewButton("Infinite Yield", "command console", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+MainSection:NewButton("Kill Dio", "for this need jotaro spawn lol", function()
+local A_1 = game:GetService("Workspace")["xXThericXx_xXproXx"].Stand["Stand Right Arm"].Trail
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Basic.Enabled
+Event:FireServer(A_1, A_2)
+
+
+local A_1 = game:GetService("Workspace").DioOverHeaven.Humanoid
+local A_2 = 999
+local A_3 = CFrame.new(-13467.4971, 1619.20337, 1460.95605, 0.0528071336, -0.156303853, 0.986296356, 0.909306765, 0.415770561, 0.0172044486, -0.412762076, 0.895937383, 0.164083868)
+local A_4 = Vector3.new(5.386104106903076, 0.0000011883385013788939, -24.41290283203125)
+local A_5 = 0.25
+local A_6 = 1
+local A_7 = "rbxassetid://260430079"
+local A_8 = 2.2
+local Event = game:GetService("ReplicatedStorage").Attacks.DamageBlunt
+Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+
+
+local A_1 = "Kick"
+local A_2 = "(B)"
+local A_3 = 01
+local Event = game:GetService("ReplicatedStorage").CoolDowns
+Event:FireServer(A_1, A_2, A_3)
+
+
+end)
+
+
+MainSection:NewButton("Kill Aura", "Kills users", function()
+    getgenv().Toggled =true
+getgenv().KeyBind ="L"
+getgenv().Delay = 0
+local UIS=game:GetService'UserInputService'
+local function Source()
+local LP = game.Players.LocalPlayer
+local success, err = pcall(function()
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = 100,
+    [3] = v.Character.HumanoidRootPart.Position,
+    [4] = v.Character.HumanoidRootPart.Position,
+    [5] = 0.1,
+    [6] = 1,
+    [7] = "rbxassetid://260430079",
+    [8] = 0.6
+}
+
+game:GetService("ReplicatedStorage").Attacks.DamageBlunt:FireServer(unpack(args))
+local args = {
+    [1] = v.Character
+}
+
+game:GetService("ReplicatedStorage").SpecialMoves.BlockBreak:FireServer(unpack(args))
+end
+end
+end)
+if err then
+warn(err)
+end
+end
+UIS.InputBegan:Connect(function(Key)
+    if Key.KeyCode==Enum.KeyCode[getgenv().KeyBind:upper()] and not UIS:GetFocusedTextBox() then
+        if getgenv().Toggled then
+            getgenv().Toggled=false
+        elseif not getgenv().Toggled then
+            getgenv().Toggled=true
+            while getgenv().Toggled do
+                Source()
+                wait(getgenv().Delay)
+            end
+        end
+    end
+end)
+end)
+
+MainSection:NewButton("Click tp", "For tp", function()
+    mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Click Teleport"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+-- MAIN
+local Main = Window:NewTab("TP")
+local MainSection = Main:NewSection("Lol")
+
+
+MainSection:NewButton("Dio Dimension", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13413.189453125, 1619.5, 1739.1300048828125)
+end)
+
+
+MainSection:NewButton("Earth", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-829.4842529296875, -4.2079572677612305, 1578.33935546875)
+end)
+
+
+MainSection:NewButton("Jotaro Spawn 1", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-766.891602, -5.30075073, 1537.14185, -0.963265657, 0, -0.268550366, 0, 1, 0, 0.268550366, 0, -0.963265657)
+end)
+
+
+MainSection:NewButton("Jotaro Spawn 2", "Idk", function()  
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-602.467346, -5.10001755, 1698.10474, 0.99157232, 0, 0.12955448, 0, 1, 0, -0.12955448, 0, 0.99157232)
+end)
+
+
+MainSection:NewButton("Jotaro Spawn 3", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-539.144165, -5.30075073, 1525.62988, -0.578289151, 0, 0.81583184, 0, 1, 0, -0.81583184, 0, -0.578289151)
+end)
+
+
+MainSection:NewButton("Jotaro Spawn 4", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-634.235901, 50.7108574, 1486.32373, -0.684858561, 0, 0.728676021, 0, 1, 0, -0.728676021, 0, -0.684858561)
+end)
+
+
+MainSection:NewButton("Jotaro Spawn 5", "Idk", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-639.36731, -5.30075073, 1513.21924, -0.640936852, 0, -0.767593563, 0, 1, 0, 0.767593563, 0, -0.640936852)
+end)
+
+--MAIN
+local Main = Window:NewTab("Other")
+local MainSection = Main:NewSection("Idk")
+
+
+MainSection:NewButton("ServerHop (Dont use it using Infinite Yield)", "Change Server", function()
+    local Http = game:GetService("HttpService") local TPS = game:GetService("TeleportService") local Api = "https://games.roblox.com/v1/games/" local _place = game.PlaceId local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100" function ListServers(cursor) local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or "")) return Http:JSONDecode(Raw) end local Server, Next; repeat local Servers = ListServers(Next) Server = Servers.data[1] Next = Servers.nextPageCursor until Server TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+end)
+
+-- MAIN
+local Main = Window:NewTab("Tools")
+local MainSection = Main:NewSection("Give Tools")
+
+
+MainSection:NewButton("Stand Arrow", "Give a arrow for get a stand", function()
+    game:GetService("ReplicatedStorage").ItemGiver.GiveArrow:FireServer()
+end)
+
+-- MAIN
+local Main = Window:NewTab("Script Hubs")
+local MainSection = Main:NewSection("Just Hubs")
+
+
+MainSection:NewButton("In Another Time", "Just a Hub", function()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\113\99\53\113\109\89\117\57\10"))()
+end)
+
+
+MainSection:NewButton("IAT (Dont ServerHop)", "Ishowspeed Monke", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/baconmanlol/ok/main/A",true))()
+end)
+
+
+MainSection:NewButton("IAT 2", "Kono dio da", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Synfinity/Syn-Hub/main/InAnotherTime'))()
+end)
