@@ -119,6 +119,113 @@ Event:FireServer(A_1, A_2, A_3)
 end)
 
 
+local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Basic.Enabled
+Event:FireServer(A_1, A_2)
+
+
+local A_1 = game:GetService("Workspace").DioOverHeaven.Humanoid
+local A_2 = 100
+local A_3 = CFrame.new(-13100.915, 1619.33508, 1890.34131, 0.104271963, -0.2512936, -0.962278128, 0.935461521, 0.353311509, 0.00910079479, 0.33769682, -0.901123047, 0.271915972)
+local A_4 = Vector3.new(21.998210906982422, -0.0000012313399793129065, 11.877655982971191)
+local A_5 = 0.25
+local A_6 = 1
+local A_7 = "rbxassetid://260430079"
+local A_8 = 2
+local Event = game:GetService("ReplicatedStorage").Attacks.DamageBlunt
+Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+
+
+
+local A_1 = "Kick"
+local A_2 = "(B)"
+local A_3 = 01
+local Event = game:GetService("ReplicatedStorage").CoolDowns
+Event:FireServer(A_1, A_2, A_3)
+
+
+
+local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Basic.Enabled
+Event:FireServer(A_1, A_2)
+
+
+local A_1 = game:GetService("Workspace").DioOverHeaven.Humanoid
+local A_2 = 100
+local A_3 = CFrame.new(-13100.915, 1619.33508, 1890.34131, 0.104271963, -0.2512936, -0.962278128, 0.935461521, 0.353311509, 0.00910079479, 0.33769682, -0.901123047, 0.271915972)
+local A_4 = Vector3.new(21.998210906982422, -0.0000012313399793129065, 11.877655982971191)
+local A_5 = 0.25
+local A_6 = 1
+local A_7 = "rbxassetid://260430079"
+local A_8 = 2
+local Event = game:GetService("ReplicatedStorage").Attacks.DamageBlunt
+Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+
+
+
+local A_1 = "Kick"
+local A_2 = "(B)"
+local A_3 = 01
+local Event = game:GetService("ReplicatedStorage").CoolDowns
+Event:FireServer(A_1, A_2, A_3)
+
+
+
+local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Basic.Enabled
+Event:FireServer(A_1, A_2)
+
+
+local A_1 = game:GetService("Workspace").DioOverHeaven.Humanoid
+local A_2 = 100
+local A_3 = CFrame.new(-13100.915, 1619.33508, 1890.34131, 0.104271963, -0.2512936, -0.962278128, 0.935461521, 0.353311509, 0.00910079479, 0.33769682, -0.901123047, 0.271915972)
+local A_4 = Vector3.new(21.998210906982422, -0.0000012313399793129065, 11.877655982971191)
+local A_5 = 0.25
+local A_6 = 1
+local A_7 = "rbxassetid://260430079"
+local A_8 = 2
+local Event = game:GetService("ReplicatedStorage").Attacks.DamageBlunt
+Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+
+
+
+local A_1 = "Kick"
+local A_2 = "(B)"
+local A_3 = 01
+local Event = game:GetService("ReplicatedStorage").CoolDowns
+Event:FireServer(A_1, A_2, A_3)
+
+
+
+local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Basic.Enabled
+Event:FireServer(A_1, A_2)
+
+
+local A_1 = game:GetService("Workspace").DioOverHeaven.Humanoid
+local A_2 = 100
+local A_3 = CFrame.new(-13100.915, 1619.33508, 1890.34131, 0.104271963, -0.2512936, -0.962278128, 0.935461521, 0.353311509, 0.00910079479, 0.33769682, -0.901123047, 0.271915972)
+local A_4 = Vector3.new(21.998210906982422, -0.0000012313399793129065, 11.877655982971191)
+local A_5 = 0.25
+local A_6 = 1
+local A_7 = "rbxassetid://260430079"
+local A_8 = 2
+local Event = game:GetService("ReplicatedStorage").Attacks.DamageBlunt
+Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+
+
+
+local A_1 = "Kick"
+local A_2 = "(B)"
+local A_3 = 01
+local Event = game:GetService("ReplicatedStorage").CoolDowns
+Event:FireServer(A_1, A_2, A_3)
+
+
 MainSection:NewButton("Kill Aura", "Kills users", function()
     getgenv().Toggled =true
 getgenv().KeyBind ="L"
