@@ -223,7 +223,6 @@ local A_2 = "(B)"
 local A_3 = 01
 local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
-end)
 
 
 local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
