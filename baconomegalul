@@ -224,7 +224,7 @@ local A_2 = "(B)"
 local A_3 = 01
 local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
-
+end)
 
 MainSection:NewButton("Kill Aura", "Kills users", function()
     getgenv().Toggled =true
