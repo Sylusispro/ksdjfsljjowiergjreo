@@ -1,3 +1,12 @@
+_G.Key = "SylusIsTheBest"
+local userkey = "https://raw.githubusercontent.com/Sylusispro/whid/main/rdhtrfhbtfrrhreo"
+local blacklist = "https://raw.githubusercontent.com/Sylusispro/bhid/main/ergoiprejgiohiurguiwebrg"
+local key = game:HttpGet(userkey, true)
+local banned = game:HttpGet(blacklist, true)
+plr = game.Players.LocalPlayer
+
+if string.find(key,_G.Key) then
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("| SYLUS GUI |       | In Another Time [DIO BOSS AND SPOH] |", "Serpent")
 
@@ -877,3 +886,6 @@ end)
 MainSection:NewButton("IAT 2", "Kono dio da", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Synfinity/Syn-Hub/main/InAnotherTime'))()
 end)
+else
+plr:kick("Contact Owner for Unblacklisted")
+end
