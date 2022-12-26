@@ -11,7 +11,7 @@ MainSection:NewButton("Infinite Yield", "command console", function()
 end)
 
 MainSection:NewButton("Kill Dio", "for this need jotaro spawn lol", function()
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -37,7 +37,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -63,7 +63,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -89,7 +89,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -115,8 +115,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -142,8 +141,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -169,9 +167,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -197,9 +193,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -225,7 +219,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -251,7 +245,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -277,7 +271,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -303,7 +297,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -329,8 +323,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -356,8 +349,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -383,9 +375,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -411,9 +401,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -439,7 +427,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -465,7 +453,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -491,7 +479,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -517,7 +505,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -543,8 +531,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -570,8 +557,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -597,9 +583,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -625,9 +609,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-
-
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -653,7 +635,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -679,7 +661,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -705,7 +687,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
@@ -731,7 +713,7 @@ local Event = game:GetService("ReplicatedStorage").CoolDowns
 Event:FireServer(A_1, A_2, A_3)
 
 
-local A_1 = game:GetService("Workspace").sylusisbetter.Stand["Stand Right Arm"].Trail
+local A_1 = game:GetService("Workspace").XJohan7u7X.Stand["Stand Right Arm"].Trail
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").Basic.Enabled
 Event:FireServer(A_1, A_2)
